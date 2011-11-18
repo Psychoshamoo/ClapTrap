@@ -199,10 +199,9 @@ do
 		if author == self.player then return end
 
 		--Filtering channels based on the user prefs.
-		if destination == "CHANNEL" and not ctdbc.chats[destination] then return end
-
-		--Remove the CHAT_MSG_ part.
 		destination = strsub(event, 10)
+		if destination == "CHANNEL" and not ctdbc.chats[destination] then return end
+		
 		--Split the message up.
 		fragments = {strsplit(" .!?,:;()[]", msg)}
 
