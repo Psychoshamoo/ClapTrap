@@ -1,0 +1,11 @@
+## Interface: 40200
+## Title: ClapTrap
+## Author: Psychoshamoo of Dalvengyr
+## Version: 0.1 alpha
+## Notes: Interplanetary Ninja Robot
+## DefaultState: Enabled
+## SavedVariables: ctdb
+## SavedVariablesPerCharacter: ctdbc
+
+ClapTrap.lua
+Options.lua
